@@ -1,0 +1,15 @@
+{
+  "name": "prime_peer_nd_01",
+  "version": "1.0.0",
+  "description": "\"Peer Node Assignment\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Terry Gunderson & Kaitlin Muth",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}
