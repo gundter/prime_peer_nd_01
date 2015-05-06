@@ -1,12 +1,13 @@
 var express = require('express');
 var app = express();
 
-var randomNumber = require('./randomNumber');
+var randomMoney = require('./randomMoney');
+
 
 app.set('port', 5000);
 
 app.get('/', function(request, response){
-   response.sendStatus(randomNumber(0, 100));
+   response.sendStatus(randomMoney());
 });
 
 app.listen(app.get('port'), function(){
