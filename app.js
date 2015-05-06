@@ -4,7 +4,7 @@ var app = express();
 var randomMoney = require('./randomMoney');
 
 
-app.set('port', 5000);
+app.set('port', (process.env.PORT || 5000));
 
 app.get('/', function(request, response){
    response.sendStatus(randomMoney.accountBalance() + randomMoney.randomMoney());
