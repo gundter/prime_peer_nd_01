@@ -1,7 +1,7 @@
-var randomNumber = require('./randomNumber');
+var augments = require('./augments');
 
 var randomMoney = function(){
-    return randomNumber(0, 100);
+    return augments.randomNumber(0, 100);
 };
 
 module.exports = randomMoney;
